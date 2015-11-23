@@ -1,0 +1,15 @@
+{
+  "name": "roc-base-web",
+  "version": "1.0.0",
+  "description": "A simple start on a generic web application for Roc",
+  "roc": "1.0.0-alpha5",
+  "author": "VG",
+  "license": "MIT",
+  "keywords": [
+    "roc"
+  ],
+  "dependencies": {
+      "roc": "*",
+      "roc-web": "*"
+  }
+}
