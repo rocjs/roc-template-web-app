@@ -1,12 +1,11 @@
-const defaultPrompt = require('roc').prompt;
-const baseConfig = require('roc-web').baseConfig;
+const defaultPrompt = require('roc').defaultPrompt;
 
 const prompt =
     defaultPrompt.concat([{
         type: 'input',
         name: 'rocPort',
         message: 'What\'s the port for the application?',
-        default: baseConfig.port
+        default: 3000
     }]);
 
 module.exports = {
