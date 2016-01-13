@@ -1,7 +1,7 @@
 module.exports = {
     settings: {
         runtime: {
-            port: {{{ rocPort }}},
+            port: {{ rocPort }},
             serve: 'files',
             favicon: 'files/roc.png'
         },
