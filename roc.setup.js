@@ -3,7 +3,7 @@ const defaultPrompt = require('roc').defaultPrompt;
 const prompt =
     defaultPrompt.concat([{
         type: 'input',
-        name: 'roc-port',
+        name: 'rocPort',
         message: 'What\'s the port for the application?',
         default: 3000
     }]);
