@@ -8,6 +8,7 @@
     "roc"
   ],
   "dependencies": {
-      "roc": "*"
+      "roc": "*",
+      "chalk": "~1.1.1"
   }
 }
