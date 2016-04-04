@@ -8,7 +8,7 @@
     "roc"
   ],
   "dependencies": {
-      "roc": "1.0.0-beta3",
+      "roc": "^1.0.0-alpha",
       "chalk": "~1.1.1"
   }
 }

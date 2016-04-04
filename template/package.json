@@ -5,6 +5,9 @@
   "author": "{{ rocAppAuthor }}",
   "license": "{{ rocAppLicense }}",
   "dependencies": {
-    "roc-web": "1.0.0-beta6"
+    "roc-package-web-app": "*"
+  },
+  "devDependencies": {
+    "roc-package-web-app-dev": "*"
   }
 }

@@ -2,17 +2,14 @@ module.exports = {
     settings: {
         runtime: {
             port: {{ rocPort }},
-            serve: 'files',
+            serve: ['files', 'build/client'],
             favicon: 'files/roc.png'
         },
         build: {
-            entry: {
-                client: 'client.js',
-                server: 'server.js'
+            input: {
+                web: 'client.js',
+                node: 'server.js'
             }
-        },
-        dev: {
-            open: true
         }
     }
 };
