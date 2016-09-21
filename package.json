@@ -1,14 +1,12 @@
 {
-  "name": "roc-template-web",
-  "version": "1.0.0",
+  "name": "roc-template-web-app",
+  "version": "1.1.0-next.1",
   "description": "A simple start on a generic web application for Roc",
-  "author": "VG",
+  "author": "Verdens Gang AS",
   "license": "MIT",
   "keywords": [
-    "roc"
-  ],
-  "dependencies": {
-      "roc": "^1.0.0-alpha",
-      "chalk": "~1.1.1"
-  }
+    "roc",
+    "roc-template",
+    "koa"
+  ]
 }

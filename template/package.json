@@ -1,13 +1,16 @@
 {
-  "name": "{{ rocAppName }}",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "{{ rocAppDesc }}",
-  "author": "{{ rocAppAuthor }}",
-  "license": "{{ rocAppLicense }}",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "license": "{{ license }}",
+  {{#if_eq license "UNLICENSED"}}
+  "private": true,
+  {{/if_eq}}
   "dependencies": {
-    "roc-package-web-app": "*"
+    "roc-package-web-app": "1.0.0-beta.1"
   },
   "devDependencies": {
-    "roc-package-web-app-dev": "*"
+    "roc-package-web-app-dev": "1.0.0-beta.1"
   }
 }

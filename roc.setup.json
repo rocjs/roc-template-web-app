@@ -1,0 +1,36 @@
+{
+    "prompts": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "message": "Project name"
+        },
+        "description": {
+            "type": "string",
+            "required": false,
+            "message": "Project description",
+            "default": "A Roc project"
+        },
+        "author": {
+            "type": "string",
+            "message": "Author"
+        },
+        "license": {
+            "type": "list",
+            "choices": [{
+                "name": "MIT"
+            }, {
+                "name": "UNLICENSED"
+            }]
+        },
+        "port": {
+            "type": "input",
+            "message": "Port",
+            "default": 3000
+        }
+    },
+    "filters": {
+        "LICENSE": "license === 'MIT'"
+    },
+    "completionMessage": "To get started:\n\n{{#unless inPlace}}  cd {{destDirName}}\n{{/unless}}  npm install\n  npm run dev\n\n  It will open your default browser when ready.\n  You can change this by setting 'dev.browsersync.options.open' to 'false' in roc.config.js\n  IMPORTANT! This app template has a static link to your client bundle, production builds will have the incorrect link"
+}
