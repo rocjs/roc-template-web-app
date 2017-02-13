@@ -1,6 +1,6 @@
 # roc-template-web-app
 
-Template for creating a application that builds on [roc-package-web-app](https://github.com/rocjs/roc-package-web-app).
+Template for creating an application that builds on [roc-package-web-app](https://github.com/rocjs/roc-package-web-app).
 
 ## Install
 
